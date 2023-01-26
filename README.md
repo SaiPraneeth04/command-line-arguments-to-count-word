@@ -19,16 +19,18 @@ Print number of words present in given file
 End of the program
 ## PROGRAM:
 ```python
+# Developed By: Sai Praneeth K
+# Reference number: 22005263
 import sys
 count = 0
-with open(sys.argv[1], 'r') as f:
+with open("text1.txt",'r') as f:
     for line in f:
         word =line.split()
         count+=len(word)
 print("Word count in file: ",count)
 ```
 ### OUTPUT:
-![MODEL](/6(b)%20image.png)
+![MODEL](/word%20count.jpg)
 
 
 ## RESULT:
